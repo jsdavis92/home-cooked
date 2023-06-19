@@ -12,6 +12,8 @@ h1 {
 
 p {
     text-align: center;
+    font-size: 25px;
+    font-family: "Geologica", sans-serif;
 }
 
 button {
@@ -30,9 +32,18 @@ button {
     margin-top: 15%;
 }
 
+#middle {
+    margin-bottom: 25%;
+}
+
 
 /* buttons */
 
+
+.btn {
+    font-family: "Geologica", sans-serif;
+    font-size: xx-large;
+}
 
 .book-a-meal {
     margin: 2%;
@@ -46,4 +57,19 @@ button {
     margin: 3%;
     width: 10%;
 
+}
+
+
+
+/* cards */
+
+
+.card-group{
+    padding-top: 10%;
+    border-radius: 25px;
+}
+
+.card {
+    margin: 3%;
+    
 }
