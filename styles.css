@@ -1,0 +1,49 @@
+body {
+    background-color: #FFD89C;
+    margin: 10%;
+}
+
+h1 {
+    font-family: "Geologica" , sans-serif ;
+    font-size: 150px;
+    font-weight: 800;
+    text-align: center;    
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    font-family: "Geologica" , sans-serif;
+    text-align: center;
+}
+
+
+
+
+/* divs */
+
+#top{
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+
+/* buttons */
+
+
+.book-a-meal {
+    margin: 2%;
+}
+
+
+
+/* images */
+
+#fork-and-knife {
+    margin: 3%;
+    width: 10%;
+
+}
