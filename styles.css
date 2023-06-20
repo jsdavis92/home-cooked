@@ -1,11 +1,12 @@
 body {
     background-color: #FFD89C;
-    margin: 10%;
+    margin: 5%;
+    text-align: center;
 }
 
 h1 {
     font-family: "Geologica" , sans-serif ;
-    font-size: 150px;
+    font-size: 600%;
     font-weight: 800;
     text-align: center;    
 }
@@ -25,14 +26,24 @@ button {
 
 
 /* divs */
+ 
+
+
+
 
 #top{
     text-align: center;
-    margin-bottom: 15%;
-    margin-top: 15%;
+    margin-bottom: 20%;
+    margin-top: 5%;
 }
 
 #middle {
+    padding-top: 10%;
+    margin-bottom: 10%;
+}
+
+#bottom {
+    padding-top:10%;
     margin-bottom: 25%;
 }
 
@@ -59,17 +70,40 @@ button {
 
 }
 
-
+#download-icon {
+    scale: 70%;
+}
+#food-icon {
+    scale: 80%;
+}
 
 /* cards */
 
 
 .card-group{
-    padding-top: 10%;
-    border-radius: 25px;
+    padding-top: 2%;
 }
 
 .card {
     margin: 3%;
+    text-align: center;
     
+}
+
+.card-description {
+    font: 1em sans-serif;
+}
+
+.card-footer {
+    /* background-color: black; */
+    color: white;
+
+}
+
+
+/* id's */
+
+
+#copyright {
+    font-size: 1rem;
 }
