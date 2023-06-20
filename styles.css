@@ -13,7 +13,7 @@ h1 {
 
 p {
     text-align: center;
-    font-size: 25px;
+    font-size: 150%;
     font-family: "Geologica", sans-serif;
 }
 
@@ -66,7 +66,7 @@ button {
 
 #fork-and-knife {
     margin: 3%;
-    width: 10%;
+    width: 9rem;
 
 }
 
@@ -106,4 +106,24 @@ button {
 
 #copyright {
     font-size: 1rem;
+}
+
+
+
+
+/* media queries */
+
+
+@media (max-width: 856px) {
+    h1 {
+        font-size: 300%;
+    }
+    p {
+        font-size: 100%;
+    }
+
+    .btn {
+        font-size: large;
+    }
+
 }
