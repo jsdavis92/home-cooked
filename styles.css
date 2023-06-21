@@ -115,6 +115,11 @@ button {
 
 
 @media (max-width: 856px) {
+
+    #top {
+        margin: 50% 0;
+    }
+
     h1 {
         font-size: 300%;
     }
