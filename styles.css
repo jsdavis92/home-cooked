@@ -1,8 +1,14 @@
 body {
-    background-color: #FFD89C;
-    margin: 5%;
+    background-color: #A2CDB0;
+    
     text-align: center;
 }
+
+header {
+    text-align: end;
+    padding: 3%;
+}
+
 
 h1 {
     font-family: "Geologica" , sans-serif ;
@@ -23,10 +29,18 @@ button {
 }
 
 
-
+.header-nav {
+    margin-top:5%;
+}
 
 /* divs */
  
+
+footer {
+    background-color: #F7E6C4;
+    padding: 2%;
+    text-align: center;
+}
 
 
 
@@ -34,12 +48,15 @@ button {
 #top{
     text-align: center;
     margin-bottom: 20%;
-    margin-top: 5%;
+    margin-top: 0%;
+    width: 100%;
 }
 
 #middle {
+    width: 100%;
+    background-color: #F7E6C4 ;
     padding-top: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 #bottom {
@@ -48,12 +65,38 @@ button {
 }
 
 
+.how-it-works {
+    text-align: center;
+}
+
+
+.step {
+    display: inline-block;
+    padding: 40px;
+}
+
+.step,.description {
+    font-size: small;
+}
+
+
 /* buttons */
 
 
+#close-button, #save-button {
+    font-size: medium;
+}
+
 .btn {
     font-family: "Geologica", sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.btn-signup, .btn-signin{
+    padding: 1% 2% 1%;
+    font-size: large;
+    margin: 1%;
+    border-radius: 40px;
 }
 
 .book-a-meal {
@@ -106,6 +149,7 @@ button {
 
 #copyright {
     font-size: 1rem;
+    margin: 0;
 }
 
 
@@ -117,7 +161,8 @@ button {
 @media (max-width: 856px) {
 
     #top {
-        margin: 50% 0;
+        margin: 10% 0;
+        padding: 20% 0 30%;
     }
 
     h1 {
@@ -128,7 +173,7 @@ button {
     }
 
     .btn {
-        font-size: large;
+        font-size: medium;
     }
 
 }
