@@ -1,0 +1,179 @@
+body {
+    background-color: #A2CDB0;
+    
+    text-align: center;
+}
+
+header {
+    text-align: end;
+    padding: 3%;
+}
+
+
+h1 {
+    font-family: "Geologica" , sans-serif ;
+    font-size: 600%;
+    font-weight: 800;
+    text-align: center;    
+}
+
+p {
+    text-align: center;
+    font-size: 150%;
+    font-family: "Geologica", sans-serif;
+}
+
+button {
+    font-family: "Geologica" , sans-serif;
+    text-align: center;
+}
+
+
+.header-nav {
+    margin-top:5%;
+}
+
+/* divs */
+ 
+
+footer {
+    background-color: #F7E6C4;
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+
+#top{
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 0%;
+    width: 100%;
+}
+
+#middle {
+    width: 100%;
+    background-color: #F7E6C4 ;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+#bottom {
+    padding-top:10%;
+    margin-bottom: 25%;
+}
+
+
+.how-it-works {
+    text-align: center;
+}
+
+
+.step {
+    display: inline-block;
+    padding: 40px;
+}
+
+.step,.description {
+    font-size: small;
+}
+
+
+/* buttons */
+
+
+#close-button, #save-button {
+    font-size: medium;
+}
+
+.btn {
+    font-family: "Geologica", sans-serif;
+    font-size: x-large;
+}
+
+.btn-signup, .btn-signin{
+    padding: 1% 2% 1%;
+    font-size: large;
+    margin: 1%;
+    border-radius: 40px;
+}
+
+.book-a-meal {
+    margin: 2%;
+}
+
+
+
+/* images */
+
+#fork-and-knife {
+    margin: 3%;
+    width: 9rem;
+
+}
+
+#download-icon {
+    scale: 70%;
+}
+#food-icon {
+    scale: 80%;
+}
+
+/* cards */
+
+
+.card-group{
+    padding-top: 2%;
+}
+
+.card {
+    margin: 3%;
+    text-align: center;
+    
+}
+
+.card-description {
+    font: 1em sans-serif;
+}
+
+.card-footer {
+    /* background-color: black; */
+    color: white;
+
+}
+
+
+/* id's */
+
+
+#copyright {
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+
+
+/* media queries */
+
+
+@media (max-width: 856px) {
+
+    #top {
+        margin: 10% 0;
+        padding: 20% 0 30%;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+    p {
+        font-size: 100%;
+    }
+
+    .btn {
+        font-size: medium;
+    }
+
+}
